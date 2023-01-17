@@ -8654,9 +8654,11 @@ auX:function auX(){},
 auY:function auY(){},
 auZ:function auZ(){},
 auW:function auW(){},
-nM:function nM(a,b,c){this.c=a
-this.d=b
-this.a=c},
+nM:function nM(a,b,c,d){var _=this
+_.c=a
+_.d=b
+_.e=c
+_.a=d},
 W2:function W2(a,b,c){var _=this
 _.d=a
 _.e=null
@@ -9021,7 +9023,7 @@ a3I:function a3I(){},
 a3J:function a3J(){},
 L1:function L1(a,b){this.c=a
 this.a=b},
-a4m:function a4m(){},
+a4m:function a4m(a){this.a=a},
 a4l:function a4l(){},
 Cb:function Cb(a){this.a=a},
 Ya:function Ya(a){var _=this
@@ -44669,7 +44671,7 @@ $2(a,b){var s=null
 return J.f(J.bu(b.b),"false")?A.dC(A.ig(s,s,2.5),s,s):new A.C9(s)},
 $S:175}
 A.auZ.prototype={
-$2(a,b){return new A.nM(new A.auW(),$.a2T()[b],null)},
+$2(a,b){return new A.nM(new A.auW(),$.a2T()[b],0,null)},
 $S:193}
 A.auW.prototype={
 $0(){},
@@ -44839,10 +44841,12 @@ s=m.ax
 if(s===!0){s=m.e
 s=s!=="ask-to-close"&&s!=="ask-to-open"}else s=!1
 if(s)j=A.ig(l,A.n(a,!1,t.Wq).b?B.M:B.P,2.5)
-else{j=j.a.a*0.06
-s=m.e
-if(s==="on")s=B.c2
-else s=s==="off"?m.a.d.d:B.fr
+else{s=m.a
+j=j.a.a
+j=s.e===0?j*0.06:j*0.01
+r=m.e
+if(r==="on")s=B.c2
+else s=r==="off"?s.d.d:B.fr
 r=A.a([new A.ee(0,B.bA,B.hP,B.h,8)],t.sq)
 q=m.a.d
 p=A.aGx(B.p,3)
@@ -46804,9 +46808,9 @@ $0(){A.aO("Tap Event")},
 $S:0}
 A.L1.prototype={
 H(a){$.a2T()
-return new A.bY(B.FF,A.aH8(new A.EL(this.c===1?5:3,0,0,1),new A.a4m(),5),null)}}
+return new A.bY(B.FF,A.aH8(new A.EL(this.c===1?5:3,0,0,1),new A.a4m(this),5),null)}}
 A.a4m.prototype={
-$2(a,b){return new A.nM(new A.a4l(),$.a2T()[b],null)},
+$2(a,b){return new A.nM(new A.a4l(),$.a2T()[b],this.a.c,null)},
 $S:193}
 A.a4l.prototype={
 $0(){},
