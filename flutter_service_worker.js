@@ -25,7 +25,6 @@ const RESOURCES = {
 "assets/assets/icons/splash.png": "d39e770edbb6d42802d60905c2887aec",
 "assets/assets/icons/sulama.png": "b07161278a0945ef26f23a9cd87a4d72",
 "assets/assets/images/circle.png": "54787eb63a153ba9a5256400237f0f1f",
-"assets/assets/images/f9aba8e1": "a1ceed711d9959aad1d413e528f2b413",
 "assets/assets/images/humidity.png": "be7f57bf0ed6cbcf5aa24809e1d1d873",
 "assets/assets/images/question_mark.png": "b81e86fffab072446898984705f18f58",
 "assets/assets/images/temperature.png": "d75aa3b7e70655e9ffe01bc43e0a72e1",
@@ -50,9 +49,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "4fb8ee6d11f792bc936ed2f9350f3c51",
-"/": "4fb8ee6d11f792bc936ed2f9350f3c51",
-"main.dart.js": "de5989766ce0e3f4f75677bf74930642",
+"index.html": "4f95f6fa3c1139db4ce8f297485ef46c",
+"/": "4f95f6fa3c1139db4ce8f297485ef46c",
+"main.dart.js": "1e6105a3cb78c1a8a09f31200c16556c",
 "manifest.json": "24c2ea01bf6d4d4f996312bcdb6f0d3d",
 "version.json": "22b2282f384198cd27b7b5fd0ab8aaa3"
 };

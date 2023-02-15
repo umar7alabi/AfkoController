@@ -46682,7 +46682,7 @@ o=$.dP
 n=B.e.i($.da)
 m=A.ci(J.ak(p.d.a,"mqtt_id"))
 if(m==null)m=A.a2J(6)
-$.aY.b=new A.vB(m+A.a2J(2),"ws://j80295ac.eu-central-1.emqx.cloud",o+"/"+n+"/app")
+$.aY.b=new A.vB(m+A.a2J(2),"ws://a2ef9f9d.us-east-1.emqx.cloud",o+"/"+n+"/app")
 if($.aY.Y().fc()!==B.at){$.aY.Y().Ii()
 $.aY.Y().o_()}s=$.aY.Y().fc()!==B.at?8:9
 break
@@ -46794,7 +46794,7 @@ $.aGs=j
 B.e.i($.da)
 n=$.dP
 i=B.e.i($.da)
-$.aY.b=new A.vB(A.a2J(6),"ws://j80295ac.eu-central-1.emqx.cloud",n+"/"+i+"/app")
+$.aY.b=new A.vB(A.a2J(6),"ws://a2ef9f9d.us-east-1.emqx.cloud",n+"/"+i+"/app")
 $.aY.Y().Ii()
 $.aY.Y().o_()
 s=$.aY.Y().fc()!==B.at?14:15
@@ -46910,7 +46910,7 @@ case 15:h=b
 if(h==null)h=A.a2J(3)
 $.aGs=j
 B.e.i($.da)
-$.aY.b=new A.vB(h,"ws://j80295ac.eu-central-1.emqx.cloud",$.dP+"/"+B.e.i($.da)+"/app")
+$.aY.b=new A.vB(h,"ws://a2ef9f9d.us-east-1.emqx.cloud",$.dP+"/"+B.e.i($.da)+"/app")
 $.aY.Y().Ii()
 $.aY.Y().o_()
 s=$.aY.Y().fc()!==B.at?16:17
